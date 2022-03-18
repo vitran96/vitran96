@@ -1,0 +1,24 @@
+{
+  "name": "mysite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitran96/vitran96.git"
+  },
+  "author": "Tran Uy Trieu Vi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vitran96/vitran96/issues"
+  },
+  "homepage": "https://github.com/vitran96/vitran96#readme",
+  "devDependencies": {
+    "eslint": "^8.11.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "2.6.0"
+  }
+}
