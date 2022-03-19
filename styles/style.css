@@ -1,0 +1,41 @@
+body {
+    display: flex!important;
+    box-sizing: border-box;
+    flex-direction: column;
+    height: 96vh;
+}
+
+main {
+    flex: 1;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside {
+    overflow: auto;
+    height: 100%;
+    padding-right: 0.5rem!important;
+    padding-left: 0.5rem!important;
+    flex: 0 0 auto;
+    margin-top: 0;
+}
+
+aside a {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+main > div {
+    overflow: auto;
+    flex: 1;
+}
+
+footer {
+    text-align: right;
+}
