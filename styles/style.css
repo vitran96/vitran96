@@ -1,8 +1,16 @@
+:root {
+    --primary-color: #38CFCA;
+    --color-on-light: #000000;
+    --global-border-style: solid;
+    --global-border-width: 1px;
+}
+
 body {
     display: flex!important;
     box-sizing: border-box;
     flex-direction: column;
     height: 96vh;
+    margin: 0;
 }
 
 main {
@@ -24,6 +32,10 @@ aside {
     padding-left: 0.5rem!important;
     flex: 0 0 auto;
     margin-top: 0;
+    background-color: var(--primary-color);
+    border-left: var(--global-border-width) var(--global-border-style) var(--color-on-light);
+    border-right: var(--global-border-width) var(--global-border-style) var(--color-on-light);
+    border-top: var(--global-border-width) var(--global-border-style) var(--color-on-light);
 }
 
 aside a {
@@ -34,8 +46,17 @@ aside a {
 main > div {
     overflow: auto;
     flex: 1;
+    padding-left: 1rem;
+    border-top: var(--global-border-width) var(--global-border-style) var(--color-on-light);
+    border-right: var(--global-border-width) var(--global-border-style) var(--color-on-light);
 }
 
 footer {
-    text-align: right;
+    text-align: left;
+    font-size: 0.75rem;
+    padding-left: 0.75rem;
+    background-color: var(--primary-color);
+    border-color: var(--color-on-light);
+    border-style: var(--global-border-style);
+    border-width: var(--global-border-width);
 }
