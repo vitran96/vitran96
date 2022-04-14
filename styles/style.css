@@ -1,8 +1,11 @@
 :root {
     --primary-color: #38CFCA;
+    --secondary-color: #4FA0FF;
+    --secondary-dark-color: #127FFF;
     --color-on-light: #000000;
     --global-border-style: solid;
     --global-border-width: 1px;
+    --light-bg: #FFFFFF;
 }
 
 body {
@@ -27,7 +30,7 @@ main {
 
 aside {
     overflow: auto;
-    height: 100%;
+    height: 100vh;
     padding-right: 0.5rem!important;
     padding-left: 0.5rem!important;
     flex: 0 0 auto;
@@ -38,9 +41,37 @@ aside {
     border-top: var(--global-border-width) var(--global-border-style) var(--color-on-light);
 }
 
+aside > header {
+    margin-top: 1rem;
+}
+
+aside > header > a > img {
+    border-radius: 6em;
+    display: block;
+    width: 10rem;
+}
+
+aside > header > a > span {
+    display: block;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
 aside a {
     display: block;
     padding: 0.5rem 1rem;
+}
+
+aside > header > nav {
+    margin-top: 2rem;
+}
+
+aside > header > nav > a {
+    margin-top: 0.5rem;
+    background: var(--light-bg);
+    color: var(--secondary-dark-color);
+    border-style: var(--global-border-style);
+    border-color: var(--secondary-color);
 }
 
 main > div {
