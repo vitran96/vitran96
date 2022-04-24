@@ -2,6 +2,7 @@
     --primary-color: #38CFCA;
     --secondary-color: #4FA0FF;
     --secondary-dark-color: #127FFF;
+    --secondary-light-color: #67ADFF;
     --color-on-light: #000000;
     --global-border-style: solid;
     --global-border-width: 1px;
@@ -80,7 +81,14 @@ aside > header > nav > a {
 }
 
 .active {
-    background: var(--secondary-color);
+    background: var(--secondary-dark-color);
+    color: var(--color-on-primary-bg);
+    border-color: var(--color-on-primary-bg);
+    border-width: 0.1rem;
+}
+
+aside > header > nav > a:hover {
+    background: var(--secondary-light-color);
     color: var(--color-on-primary-bg);
     border-color: var(--color-on-primary-bg);
     border-width: 0.1rem;
