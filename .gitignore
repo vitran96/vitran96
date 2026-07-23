@@ -1,1 +1,8 @@
-node_modules
+node_modules/
+
+build/
+dist/
+target/
+out/
+tmp/
+temp/
