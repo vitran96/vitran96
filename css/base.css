@@ -1,4 +1,53 @@
-* {
+*,
+*::before,
+*::after {
   box-sizing: content-box;
+  margin: 0;
+  padding: 0;
   line-height: 1.5;
+}
+
+html {
+  font-size: var(--text-base);
+  line-height: var(--leading-normal);
+
+  /* prevent iOS Safari auto inflating text size */
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-primary), serif;
+
+  color: var(--text-color-body);
+  background-color: var(--bg-color-base);
+  min-height: 100vh;
+}
+
+a:hover,
+a:focus,
+a:active,
+a:link,
+a:visited {
+  color: var(--text-color-dim);
+  text-decoration-line: none;
+}
+
+h1 {
+  font-size: var(--text-3xl);
+}
+
+h2 {
+  font-size: var(--text-2xl);
+}
+
+h3 {
+  font-size: var(--text-xl);
+}
+
+h4 {
+  font-size: var(--text-lg);
+}
+
+h5 {
+  font-size: var(--text-md);
 }

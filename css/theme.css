@@ -1,5 +1,80 @@
+@font-face {
+  font-family: "Cinzel";
+  src: url("/assets/fonts/Cinzel/Cinzel-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "EB_Garamond";
+  src: url("/assets/fonts/EB_Garamond/EBGaramond-VariableFont_wght.ttf");
+}
+
 :root {
-  --color-gold: #d4af6a;
+  /* color */
+  --color-gold-100: #f0e6cc;
+  --color-gold-300: #d4af6a;
+  --color-gold-500: #a88c4a;
+  --color-gold-700: #8a7548;
+  --color-gold-900: #5c4f30;
+
+  --bg-color-base: #0a0805;
+  --bg-color-surface: #0e0b06;
+  --bg-color-raised: #161109;
+  --bg-color-overlay: #1c1530;
+
+  --text-color-primary: var(--color-gold-100);
+  --text-color-body: #e8dcc0;
+  --text-color-muted: #b8a878;
+  --text-color-dim: var(--color-gold-700);
+
+  --border-color-strong: #d4af6a;
+  --border-color-default: rgba(168, 140, 74, 0.25);
+  --border-color-subtle: rgba(168, 140, 74, 0.12);
+
+  /* font */
+  --font-primary: "Cinzel";
+  --font-secondary: "EB_Garamond";
+
+  /* text size */
+  /* 12px */
+  --text-xs: 0.75rem;
+  /* 14px */
+  --text-sm: 0.875rem;
+  /* 16px */
+  --text-base: 1rem;
+  /* 18px */
+  --text-md: 1.125rem;
+  /* 20px */
+  --text-lg: 1.25rem;
+  /* 24px */
+  --text-xl: 1.5rem;
+  /* 32px */
+  --text-2xl: 2rem;
+  /* 46px */
+  --text-3xl: 2.875rem;
+
+  /* line height */
+  --leading-tight: 1.2;
+  --leading-snug: 1.4;
+  --leading-normal: 1.6;
+  --leading-loose: 1.8;
+
+  /* gap */
+  /* 4px */
+  --space-1: 0.25rem;
+  /* 8px */
+  --space-2: 0.5rem;
+  /* 12px */
+  --space-3: 0.75rem;
+  /* 16px */
+  --space-4: 1rem;
+  /* 24px */
+  --space-6: 1.5rem;
+  /* 32px */
+  --space-8: 2rem;
+  /* 48px */
+  --space-12: 3rem;
+  /* 64px */
+  --space-16: 4rem;
 }
 
 /* theming override use below structure */
