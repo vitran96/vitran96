@@ -1,1 +1,5 @@
-# My Site
+# My portfolio
+
+## Site tech info
+
+Browser support: 2023+
