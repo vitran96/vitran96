@@ -29,6 +29,11 @@
   --border-color-strong: #d4af6a;
   --border-color-default: rgba(168, 140, 74, 0.25);
   --border-color-subtle: rgba(168, 140, 74, 0.12); */
+  --color-night: #070b1f;
+  --color-surface: #10173a;
+  --color-royal: #1e2a6e;
+  --color-starlight: #f7f1de;
+  --color-crown-gold: linear-gradient(#fff3c4, #f0cf6e 38%, #c99a3b);
 
   /* font */
   /* --font-primary: "Cinzel";

@@ -51,3 +51,47 @@ h4 {
 h5 {
   /* font-size: var(--text-md); */
 }
+
+button {
+  all: unset;
+  cursor: pointer;
+  display: inline-block;
+
+  clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+
+  /* outline: 4px solid var(--color-starlight); */
+  /* outline-offset: 4px; */
+  /* outline-color: var(--color-starlight); */
+
+  /* border: 2px solid var(--color-starlight); */
+
+  outline: thick double #32a1ce;
+
+  /* display: inline-block; */
+  padding: 10px 30px;
+  cursor: pointer;
+  /* color: #0e0e0e; */
+  background: var(--color-crown-gold);
+}
+
+body {
+  background-color: var(--color-night);
+}
+
+/* .t1 {
+  background: linear-gradient(#fff3c4, #f0cf6e 38%, #c99a3b);
+}
+
+.t2 {
+  background: linear-gradient(
+    180deg,
+    #fff3c4 0%,
+    #f0cf6e 38%,
+    #e2b84a 62%,
+    #c99a3b 100%
+  );
+}
+
+.t3 {
+  background: linear-gradient(#fff3c4, #f0cf6e, #e2b84a, #c99a3b);
+} */
